@@ -27,7 +27,6 @@ then: <code>\dt; </code> (to show the tables that ef created)
 
 <br>
 
-                 List of relations <br>
  Schema |         Name          | Type  |  Owner   <br>
 --------+-----------------------+-------+---------- <br>
  public | AspNetRoleClaims      | table | postgres <br>
