@@ -4,7 +4,7 @@ mounted to it for data persistence. Can run on win, mac, linux
 Make sure you have the following installed: <br>
 <em>dotnet 8 sdk, entity framework CLI, docker</em>
 
-Steps to reproduce:
+Steps to reproduce: <br>
 1- clone repo <br>
 2- delete "Migrations" folder <br>
 
