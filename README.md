@@ -1,8 +1,8 @@
 This is a boilerplate for using ASPNET IDENTITY for cookie-based authentication/authorization. It uses PostgreSQL running in a Docker container with a volume
 mounted to it for data persistence. Can run on win, mac, linux
 
-make sure you have the following installed: 
-dotnet 8 sdk, entity framework CLI, docker
+Make sure you have the following installed: <br>
+<em>dotnet 8 sdk, entity framework CLI, docker</em>
 
 Steps to reproduce:
 1- clone repo <br>
