@@ -23,9 +23,7 @@ Steps to reproduce:
 To connect to postgreSQL db, open an interactive terminal and run this command:<br>
 <code>psql -U postgres</code> <br>
 then: <code> \c auth_db; </code>(to connect to the db ef created)<br>
-then: <code>\dt; </code> (to show the tables that ef created)
-
-<br>
+then: <code>\dt; </code> (to show the tables that ef created) <br>
 
  Schema |         Name          | Type  |  Owner   <br>
 --------+-----------------------+-------+---------- <br>
