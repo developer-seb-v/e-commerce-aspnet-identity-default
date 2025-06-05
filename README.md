@@ -9,20 +9,23 @@ Steps to reproduce:
 2- delete "Migrations" folder <br>
 
 3- in your terminal/cmd line run the following command to create docker volume: <br>
- <code>docker volume create volume02</code>
+ <code>docker volume create volume02</code> 
+ <br>
 
-4- then type in this command to create and run the PostgreSQL container:
-"docker run --name postgres -e POSTGRES_PASSWORD=password123 \
--p 5432:5432 -v volume02:/var/lib/postgresql/data -d postgres"
+4- then type in this command to create and run the PostgreSQL container:<br>
+<code>docker run --name postgres -e POSTGRES_PASSWORD=password123 \ <br>
+-p 5432:5432 -v volume02:/var/lib/postgresql/data -d postgres</code> <br>
 
-5- run dotnet ef migrations "name of your migration"
-       dotnet ef database update
-
+5- run <code>dotnet ef migrations "name of your migration"</code> <br>
+     <code> dotnet ef database update </code> <br>
  These will populate the postgres DB with the Identity library-provided tables for authentication. 
+<br>
+To connect to postgreSQL db, open an interactive terminal and run this command:<br>
+<code>psql -U postgres</code> <br>
+then: <code> \c auth_db; </code>(to connect to the db ef created)<br>
+then: <code>\dt; </code> (to show the tables that ef created)
 
-To connect to postgreSQL db, open an interactive terminal and run this command: psql -U postgres
-then: \c auth_db; (to connect to the db ef created)
-then: \dt; (to show the tables that ef created)
+<br>
 
                  List of relations
  Schema |         Name          | Type  |  Owner   
