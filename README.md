@@ -5,11 +5,11 @@ make sure you have the following installed:
 dotnet 8 sdk, entity framework CLI, docker
 
 Steps to reproduce:
-1- clone repo
-2- delete "Migrations" folder
+1- clone repo <br>
+2- delete "Migrations" folder <br>
 
-3- in your terminal/cmd line run the following command to create docker volume:
- "docker volume create volume02"
+3- in your terminal/cmd line run the following command to create docker volume: <br>
+ <code>docker volume create volume02</code>
 
 4- then type in this command to create and run the PostgreSQL container:
 "docker run --name postgres -e POSTGRES_PASSWORD=password123 \
