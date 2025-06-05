@@ -27,16 +27,16 @@ then: <code>\dt; </code> (to show the tables that ef created)
 
 <br>
 
-                 List of relations
- Schema |         Name          | Type  |  Owner   
---------+-----------------------+-------+----------
- public | AspNetRoleClaims      | table | postgres
- public | AspNetRoles           | table | postgres
- public | AspNetUserClaims      | table | postgres
- public | AspNetUserLogins      | table | postgres
- public | AspNetUserRoles       | table | postgres
- public | AspNetUserTokens      | table | postgres
- public | AspNetUsers           | table | postgres
- public | __EFMigrationsHistory | table | postgres
+                 List of relations <br>
+ Schema |         Name          | Type  |  Owner   <br>
+--------+-----------------------+-------+---------- <br>
+ public | AspNetRoleClaims      | table | postgres <br>
+ public | AspNetRoles           | table | postgres <br>
+ public | AspNetUserClaims      | table | postgres <br>
+ public | AspNetUserLogins      | table | postgres <br>
+ public | AspNetUserRoles       | table | postgres <br>
+ public | AspNetUserTokens      | table | postgres <br>
+ public | AspNetUsers           | table | postgres <br>
+ public | __EFMigrationsHistory | table | postgres <br>
 
  
