@@ -8,6 +8,6 @@ namespace e_commerce.Models
 {
     public class User : IdentityUser
     {
-        
+        // default User class that inherits from IdentityUser class
     }
 }

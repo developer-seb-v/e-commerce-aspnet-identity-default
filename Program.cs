@@ -19,7 +19,8 @@ builder.Services.AddIdentityCore<User>().AddEntityFrameworkStores<DataContext>()
 
 builder.Services.AddDbContext<DataContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("Postgres"))
-);
+); // this adds the db context we created and grabs the connection string 
+  // appsettings.json 
 
 var app = builder.Build();
 
